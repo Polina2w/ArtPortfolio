@@ -184,7 +184,7 @@ footer{
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
-    width: 250px;
+    width: 100%;
 }
     .pic4{
     padding-right: 40px;
@@ -201,7 +201,7 @@ footer{
     font-size:20px;
    }
     .pic3{
-    width: 250px;
+    width: 100%;
     padding-right: 20px;
   }
     .title{
@@ -221,6 +221,6 @@ footer{
     .blockText{
     
     background-position: center;
-    background-size: 828px;
+    background-size: 100%;
   }
 }
