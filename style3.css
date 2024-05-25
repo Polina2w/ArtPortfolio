@@ -137,6 +137,11 @@ span{
     font-size:15px;
     
     }
+    .blockText{
+    
+    background-position: center;
+    background-size: 828px;
+  }
 
   
 }

@@ -155,4 +155,9 @@ a{
     width: 250px;
     
   }
+  .blockText{
+    
+    background-position: center;
+    background-size: 828px;
+  }
 }
