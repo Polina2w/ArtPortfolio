@@ -1,0 +1,158 @@
+.blockText{
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    font-family:Impact;
+    text-align: left;
+    font-size:90px;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-image: url(hands.jpeg);
+    width: 100%;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    color: white;
+    font-size:20px;
+    font-family:Copperplate;
+    font-weight: lighter;
+}
+.button2{
+    font-family:Gill Sans;
+    margin: 50px;
+    font-size:30px;
+    color:rgba(0,0,0, 0.7);
+    text-decoration:none;
+    border-radius: 30px;
+    border: 2px solid rgba(0,0,0, 0.5);
+    padding: 5px 30px;
+}
+.button2:hover{
+    color: black;
+    border: 2px solid black;
+        
+}
+footer{
+    background-color: #D9D7CC;
+    width: 100%;
+    padding: 30px;
+    vertical-align: middle;
+
+}
+.button1{
+    display: inline-block;
+    font-size:24px;
+    font-family:Copperplate;
+    color: #BF9673;
+    margin-left: 100px;
+    text-decoration:none;
+}
+
+.button1:hover{
+    color:#734C36;
+        
+}
+.text2{
+    color: #261201;
+    font-size:20px;
+    font-family:Copperplate;
+    font-weight: lighter;
+    text-align: right;
+}
+.title{
+    font-family:Gill Sans;
+    display: inline-block;
+    color: black;
+    font-size:40px;
+    font-weight: 800px;
+    text-align: left;
+    color:#533721;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.pic3{
+    width: 450px;
+    float: left; 
+    padding-right: 30px;
+}
+p{
+    margin:50px;
+    display: inline-block;
+    font-family:Gill Sans;
+    vertical-align: top;
+    font-size:20px;
+    text-align: left;
+    color: #7D7E82;
+    
+}
+span{
+  font-size:30px;  
+    text-align: center;
+    color:#636467;
+}
+a{
+    color:#BF9673;
+}
+.pic1{
+    width: 450px;
+    display: inline-block;
+    float: right; 
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+@media (max-width:1024px) {
+  .pic3{
+    width: 450px;
+    
+  }
+  .button2{
+    font-size:20px;
+   }
+   .blockText{
+    font-size:75px;
+    min-height: 550px;
+    
+   }
+   .text{
+    font-size:15px;
+   }
+   .text2{
+    font-size:15px;
+   }
+}
+@media (max-width:768px) {
+    p{
+    text-align: justify;
+    }
+    .text2{
+    font-size:15px;
+    }
+    .button0{
+    font-size:20px;
+   }
+    .title{
+    font-size:30px;
+    font-weight: 600px;
+    }
+    span{
+    font-size:20px;  
+    }
+    p{
+    font-size:15px;
+    }
+    .button11{
+    font-size:15px;
+    
+    }
+    .pic3{
+    width: 250px;
+    
+  }
+    .pic1{
+    width: 250px;
+    
+  }
+}
